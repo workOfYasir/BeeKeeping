@@ -1,0 +1,110 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: gr; */
+}
+.navbar {
+    padding:0rem;
+    margin-bottom:2rem;
+  }
+  .nav-item{
+      font-size: 15px;
+  }
+  .ellipsis {
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+}
+  .header{
+      margin-bottom: -33px;
+  }
+  .adjustRow{
+    margin-right: 0px !important;
+    --bs-gutter-x: 4rem !important;
+  }
+  .menubar{
+    padding-right: 0px !important;
+  }
+  .subscribeinput::placeholder{
+    color: #d4a936;
+  }
+  .topbar{
+      background-color: black;
+      height:40px;
+  }
+  #mynavbar, .dropdown-menu{
+    background-color: #d4a936;
+  }
+  .dropdown:hover , .nav-item:hover{
+      background-color: white;
+  }
+  .logo{
+    width: 50%;
+  }
+  li{
+      list-style: none;
+      color: #d4a936;
+  }
+  p{
+    color: #d4a936;
+  }
+  .dropdown .dropdown-menu {
+    border-radius:0;
+   }
+  .col-10-5{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 86.333333%;
+    max-width: 86.333333%;
+  }
+  .offset-0-5 {
+      margin-left: 6.333333%;
+  }
+  .dropdown-item, .nav-link{
+      color:black !important;
+  }
+  .brand-info{
+    background-color: #d4a936;
+  }
+  .owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 50vh;
+}
+.rating{
+  cursor: pointer;
+}
+.title{
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 246px; 
+  height: 1.2em; 
+  white-space: nowrap;
+  font-weight: bold;
+}
+.priceC{
+  color:#d4a936;
+}
+.owl-product{
+  border: 1px solid black;
+}
+
+  /* Medium devices (tablets, 768px and up) 
+  The navbar toggle appears at this breakpoint */
+  /* @media (min-width: 768px) {  
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    border-radius:0;
+   } */
+    
+    /* .kd-on{
+      border:solid;
+      border-color:#50ebeb;
+      border-width:1px;
+      background:#e2e2e2;
+    } */
+  /* } */
+  
