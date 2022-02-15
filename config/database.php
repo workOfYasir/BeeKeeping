@@ -4,7 +4,7 @@ $url = parse_url(getenv('DATABASE_URL'));
 $host = $url['host']??null;
 $username = $url['user']??null;
 $password = $url['pass']??null;
-$database = substr($url['path'],1)??null;
+$databases = substr($url['path'],1)??null;
 
 use Illuminate\Support\Str;
 
@@ -88,7 +88,7 @@ return [
             'user' => $username,
             'password' => $password,
             'host' => $host,
-            'dbname' => $database,
+            'dbname' => $databases,
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
