@@ -31,7 +31,7 @@ Route::get('/product/category/{cat_id}',[ProductController::class,'categoryProdu
 Route::get('/blog/detail/{id}',[ProductController::class,'detailBlog'])->name('blog.detail');
 Route::get('/blog/all',[ProductController::class,'showBlog'])->name('blog.all');
 Route::post('/storeproduct',[ProductController::class,'store']);
-Route::get('/product/{id}',[ProductController::class,'show']);
+Route::get('/product/{id}',[ProductController::class,'show'])->name('productDetail');
 
 Route::get('cart', [CartController::class, 'cartList'])->name('cart.list');
 Route::post('cart', [CartController::class, 'addToCart'])->name('cart.store');

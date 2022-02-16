@@ -10,7 +10,9 @@
      
     <div class="card col-3 m-1" style="width: 18rem;">
         <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
-        <img src="/uploads/Products/{{$product->main_image}}" class="card-img-top" alt="...">
+        <a href="{{ route('productDetail',$product->id) }}">
+            <img src="/uploads/Products/{{$product->main_image}}" class="card-img-top" alt="...">
+        </a>
         <div class="card-body">
             <h5 class="card-title">{{ $product->title }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">
@@ -163,6 +165,7 @@
                         <input type="hidden" value="{{ $product->price }}" name="price">
                         <input type="hidden" value="{{ $product->main_image }}"  name="image">
                         <input type="hidden" value="1" name="quantity">
+                     
                         <button class="btn btn-primary ">Add To Cart</button>
                     </form>
                   

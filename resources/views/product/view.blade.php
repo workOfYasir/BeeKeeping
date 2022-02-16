@@ -278,8 +278,10 @@
                                                 <i class="far fa-star"></i>
                                             </label>
                                             <input class="star star-2" value="2" id="star-2" type="radio" name="star"/>
-                                            <label class="star star-2" for="star-2"></label>
+                                            <label class="star star-2" for="star-2">
                                                 <i class="far fa-star"></i>
+                                            </label>
+                                               
                                             <input class="star star-1" value="1" id="star-1" type="radio" name="star"/>
                                             <label class="star star-1" for="star-1">
                                                 <i class="far fa-star"></i>
@@ -290,16 +292,16 @@
                                       </div>
                               </form>
                         </div> 
-                        <span class="ml-1 font-weight-bold"> {{  number_format($product->averageRating,1,'.','') }}</span>
+                        <span class="ml-1 font-weight-bold"> {{  number_format($article->averageRating,1,'.','') }}</span>
                     </div>
                 </div>
-                <hr>
-                <div class="col-12">
+                {{-- <hr> --}}
+                {{-- <div class="col-12">
                     <div class="badges">  <span class="badge bg-dark "> <i class="fa fa-image"></i> 23 </span> <span class="badge bg-dark "> <i class="fa fa-comments-o"></i> 23 </span> <span class="badge bg-warning"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <span class="ml-1">2,123</span> </span> </div>
                 </div>
-                <hr>
+                <hr> --}}
                 
-                <div class="comment-section">
+                {{-- <div class="comment-section">
                     <div class="col-12">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="d-flex flex-row align-items-center"> <img src="https://i.imgur.com/o5uMfKo.jpg" class="rounded-circle profile-image">
@@ -321,7 +323,7 @@
                             <div class="date"> <span class="text-muted">12 May</span> </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="col-12 col-sm-7">
