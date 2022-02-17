@@ -72,6 +72,11 @@ class ProductController extends Controller
 
         return view('product.view',compact('article','comments'));
     }
+    public function delete($id)
+    {
+        $pro = Product::find($id);
+        $pro->delete();
+    }
     public function test(){
        
         $article = Product::with('types')->find(1);

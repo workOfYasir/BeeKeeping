@@ -33,6 +33,9 @@ Route::get('/blog/all',[ProductController::class,'showBlog'])->name('blog.all');
 Route::post('/storeproduct',[ProductController::class,'store']);
 Route::get('/product/{id}',[ProductController::class,'show'])->name('productDetail');
 
+Route::get('/delete/{id}',[ProductController::class,'delete']);
+
+
 Route::get('cart', [CartController::class, 'cartList'])->name('cart.list');
 Route::post('cart', [CartController::class, 'addToCart'])->name('cart.store');
 Route::post('update-cart', [CartController::class, 'updateCart'])->name('cart.update');
