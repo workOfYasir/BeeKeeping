@@ -76,4 +76,40 @@
         });
 
 </script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+
+<script>
+    $('#lightSlider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop: true,
+        slideMargin: 0,
+        thumbItem: 9
+    });
+    // $(function(){
+        $(".xzoom").xzoom({
+        zoomWith: 400,
+        tint:"#333",
+        Xoffset:15,
+    // });
+    })
+    $('#addStar').change('.star', function(e) {     
+        $(this).submit();
+        e.preventDefault();
+    });
+    function reply(id,index)
+    {
+
+        comment_id = $('#comment_id_'+index).val();
+
+        if(comment_id=='')
+        {
+            $('#comment_id_'+index).val(id);
+        }else{
+            $('#comment_id_'+index).val('');
+        }
+    
+    }
+   
+</script>
 </html>
