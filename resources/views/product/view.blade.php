@@ -513,9 +513,9 @@
 
 @endsection
 @push('scripts')
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    {{-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script> --}}
     {{-- <script src="{{ asset('assests/js/xzoom.js') }}" ></script> --}}
-<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+{{-- <script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
 
 <script>
     $('#lightSlider').lightSlider({
@@ -550,5 +550,5 @@
     
     }
    
-</script>
+</script> --}}
 @endpush
