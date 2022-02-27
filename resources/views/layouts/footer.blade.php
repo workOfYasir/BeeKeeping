@@ -1,57 +1,96 @@
-<div class="fluid-container bg-dark">
-  <div class="row px-4 adjustRow">
-    <div class="col-12 col-sm-6 col-lg-6 py-3 px-3">
-      <h5 class="text-white"><b>Contact Us</b></h5>
-      <br>
-      <p>We are located in Western Europe in Germany and in South Asia in Pakistan. The quality control and user design experience run through Germany and the manufacturing part is done from an industrial city Sialkot in Pakistan.</p>
-      <br>
-      <p>Currently, we are manufacturing all kinds of bee suits and gloves including Organic Cotton and Ventilated bee suits with the highest quality YKK zipper and genuine leather for gloves</p>
-      <br>
-      <ul>
-        <li><i class="fas fa-sm fa-home"></i>&nbsp Robert-Bosch-Straße 42, 74081, Heilbronn, Germany</li>
-        <li><i class="fas fa-mobile-alt"></i>&nbsp +49 (0) - 151- 75514737</li>
-        <li><i class="fas fa-envelope-open"></i>&nbsp atif@fivestar.com</li>
-      </ul>
-    </div>
-    <div class="col-12 col-sm-6 col-lg-2 py-3 px-3">
-    <h5 class="text-white"><b>Account</b></h5>
-    <ul>
-      <li><small>My Account</small></li>
-      <li><small>Orders</small></li>
-      <li><small>Wish List</small></li>
-    </ul>
-    </div>
-    <div class="col-12 col-sm-6 col-lg-2 py-3 px-3">
-    <h5 class="text-white"><b>Information</b></h5>
-    <ul>
-      <li><small>Calculate Orders</small></li>
-      <li><small>Delivery Information</small></li>
-      <li><small>Privacy Policy</small></li>
-      <li><small>Terms & Conditions</small></li>
-    </ul>
-    </div>
-    <div class="col-12 col-sm-6 col-lg-2 py-3 px-3">
-    <h5 class="text-white"><b>Extras</b></h5>
-    <ul>
-      <li><small>Brands</small></li>
-      <li><small>Site Map</small></li>
-      <li><small>Affilate</small></li>
-      <li><small>Blog</small></li>
-    </ul>
-    </div>
-  </div>
-  <div class="row adjustRow px-4">
-    <div class="col-12">
-      <form action="#">
-        <div class="d-flex">
-          <div class="form-group">
-          <input type="email" name="" id="" class="form-control bg-secondary subscribeinput text-white" placeholder="Enter Email">
-          </div> &nbsp&nbsp
-          <div>
-            <button type="submit" class="btn btn-sm btn-primary" style="padding: 7px;">Subscribe</button>
-          </div>
+<footer class="footer-14398">
+      
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-2 ml-auto">
+        <h3>Shop</h3>
+        <div class="col-3 bg-white p-0">
+          <hr>
         </div>
-      </form>
+     
+        <ul class="list-unstyled links">
+          <li><a href="#">Sell online</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Examples</a></li>
+          <li><a href="#">Website editors</a></li>
+          <li><a href="#">Online retail</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 ml-auto">
+        <h3>Shop</h3>
+        <div class="col-3 bg-white p-0">
+          <hr>
+        </div>
+        <ul class="list-unstyled links">
+          <li><a href="#">Sell online</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Examples</a></li>
+          <li><a href="#">Website editors</a></li>
+          <li><a href="#">Online retail</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 ml-auto">
+        <h3>Press</h3>
+        <div class="col-3 bg-white p-0">
+          <hr>
+        </div>
+        <ul class="list-unstyled links">
+          <li><a href="#">Events</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Awards</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Online retail</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 ml-auto">
+        <h3>About</h3>
+        <div class="col-3 bg-white p-0">
+          <hr>
+        </div>
+        <ul class="list-unstyled links">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
     </div>
   </div>
+  <hr >
+  <div class="container pt-2">
+    <div class="row ">
+      {{-- <div class="col-12 pb-4">
+        <div class="line"></div>
+      </div> --}}
+      <div class="col-md-4 text-md-left">
+        <i class=" far fa-copyright"></i>Copyright 2022 All Rights Resvered. DevZila Software Hub
+      </div>
+     
+      <div class="col-md-4 text-md-center">
+        <ul class="list-unstyled social nav-center">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest"></i></li>
+          <li><a href="#"><i class="fas fa-rss"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 text-md-right">
+        <ul class="list-unstyled social nav-right">
+          <li><a href="#"><i class="fab fa-cc-visa fa-xl" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-cc-mastercard fa-xl " ></i></a></li>
+          <li><a href="#"><i class="fab fa-cc-discover fa-xl" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-cc-amex fa-xl"></i></a></li>
+
+     
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+  
 </div>
+</footer>

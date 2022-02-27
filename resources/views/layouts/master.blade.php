@@ -41,6 +41,9 @@
 
     </head>
     <body>
+        <a href="https://api.whatsapp.com/send?phone=03324010410&text=Hello%21%20Beekeeper%20I%20Have%20a%20query%20." class="float" target="_blank">
+            <i class="fab fa-whatsapp my-float"></i>
+            </a>
         @include('layouts.header')
         @yield('content')
         @include('layouts.footer')

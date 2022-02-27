@@ -181,6 +181,108 @@ height: 120px;
 </div> --}}
 {{-- test product card end--}}
 <div class="container">
+  <div class="row">
+    <div class="col"><img href="{{ asset('assests/images/') }}" /></div>
+    <div class="col"><img href="{{ asset('assests/images/') }}" /></div>
+    <div class="col"><img href="{{ asset('assests/images/') }}" /></div>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+      <!--tips: use row-cols-md-(X) to control how many of columns to show per row-->
+      <!--tips: when you need equal height, add .h-100 to the cards-->
+      <!--Card1-->
+      <div class="col-3 mb-4">
+        <div class="card">
+          <img src="{{ asset('assests/images/avi.jpg') }}" class="card-img-top" alt="...">
+          
+            <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+          
+            <p class="card-text bottom text-white p-2">Shop Now</p>
+          
+        </div>
+      </div>
+      <!--Card2-->
+      <div class="col-3 mb-4">
+        <div class="card">
+          <img src="{{ asset('assests/images/men.jpg') }}" class="card-img-top" alt="...">
+          
+            <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+          
+            <p class="card-text bottom text-white p-2">Shop Now</p>
+          
+        </div>
+      </div>
+      <!--Card3-->
+      <div class="col-3 mb-4">
+        <div class="card">
+          <img src="{{ asset('assests/images/img.jpg') }}" class="card-img-top" alt="...">
+          
+            <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+          
+            <p class="card-text bottom text-white p-2">Shop Now</p>
+          
+        </div>
+      </div>
+      <!--Card4-->
+      <div class="col-3 mb-4">
+        <div class="card">
+          <img src="{{ asset('assests/images/men.webp') }}" class="card-img-top" alt="...">
+          
+            <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+          
+            <p class="card-text bottom text-white p-2">Shop Now</p>
+          
+        </div>
+      </div>
+         <!--Card1-->
+         <div class="col-3 mb-4">
+          <div class="card">
+            <img src="{{ asset('assests/images/avi.jpg') }}" class="card-img-top" alt="...">
+            
+              <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+            
+              <p class="card-text bottom text-white p-2">Shop Now</p>
+            
+          </div>
+        </div>
+        <!--Card2-->
+        <div class="col-3 mb-4">
+          <div class="card">
+            <img src="{{ asset('assests/images/men.jpg') }}" class="card-img-top" alt="...">
+            
+              <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+            
+              <p class="card-text bottom text-white p-2">Shop Now</p>
+            
+          </div>
+        </div>
+        <!--Card3-->
+        <div class="col-3 mb-4">
+          <div class="card">
+            <img src="{{ asset('assests/images/img.jpg') }}" class="card-img-top" alt="...">
+            
+              <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+            
+              <p class="card-text bottom text-white p-2">Shop Now</p>
+            
+          </div>
+        </div>
+        <!--Card4-->
+        <div class="col-3 mb-4">
+          <div class="card">
+            <img src="{{ asset('assests/images/men.webp') }}" class="card-img-top" alt="...">
+            
+              <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
+            
+              <p class="card-text bottom text-white p-2">Shop Now</p>
+            
+          </div>
+        </div>
+    </div>
+    
+  </div>
+
   <h5 class="text-center font-weight-bold"><b>New Arrivals</b></h5>
   <div class="row px-3">
   <div class="owl-carousel items">
@@ -408,7 +510,42 @@ height: 120px;
   </div>
 </div> --}}
 <br>
-<div class="container">
+<div class=" row-eq-height d-flex p-0">
+  <div class="col-6 p-0 d-flex flex-column justify-content-center" style="background-image: url({{ asset('assests/images/men.webp') }});background-size:cover">
+   <div class="p-5 text-white p-2">
+
+<div class="h3 ">New Trends</div>
+<div class="display-4">
+MEN Bee Suit
+</div>
+</div>
+ 
+    {{-- <img src="{{ asset('assests/images/men.webp') }}"  style="visibility: hidden" alt=""> --}}
+  </div>
+<div class="col-6 p-0">
+  <div class="col-12 p-0 h-60 d-flex flex-column justify-content-center" style="background-image: url({{ asset('assests/images/women.webp') }});background-size:cover" >
+    {{-- <img src="{{ asset('assests/images/women.webp') }}" class="img-fluid" style="visibility: hidden" alt=""> --}}
+   <div class="p-5 text-white p-2">
+    <div class="h4 ">New Trends</div>
+<div class="h3">
+Women Bee Suit
+</div>
+  </div>
+</div>
+  <div class="col-12 p-0 h-40" style="background-image: url({{ asset('assests/images/kids.webp') }});background-size:cover">
+    {{-- <img src="{{ asset('assests/images/kids.webp') }}" class="img-fluid" style="visibility: hidden" alt=""> --}}
+   <div class="p-5 text-white p-2">
+    <div class="h5 ">New Trends</div>
+<div class="h4">
+Kids Bee Suit
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+</div>
+<div class="container pt-5">
   <div class="row">
     <div class="col-12">
       <h5>Why Five Star Bee-Keeping Is Important</h5><br>
@@ -416,5 +553,32 @@ height: 120px;
     </div>
   </div>
 </div><br>
+<div class="container">
+<div class="col-12 text-light" style="background-image:url({{ asset('assests/images/banner.jpg') }});    background-size: cover">
+{{-- <img src="{{ asset('assests/images/banner.jpg') }}" class="img-fluid" alt=""> --}}
+<div class="p-sm-5 p-1">
+<h2> Sign Up For NewsLetter</h2>
+<p class="text-secondary">Follow when an unknown printer took a galley of type.</p>
+<div class="col-3 text-secondary"><hr></div>
+<form action="" method="get" class="pb-5">
+  <div class="input-group mb-3 col-sm-6 col-12">
+   
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <div class="input-group-prepend ">
+      <span class="input-group-text text-warning p-2 bg-light" id="basic-addon1">
+        Subscribe
+      </span>
+    </div>
+    <div class="input-group-prepend bg-light">
+      <button type="submit" class="btn">
+<i class="fa fa-mail-forward" aria-hidden="true"></i>
+      </button>
+  </div>
 
+</form>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
 @endsection
