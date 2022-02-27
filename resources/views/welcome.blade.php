@@ -563,7 +563,7 @@ Kids Bee Suit
 <form action="" method="get" class="pb-5">
   <div class="input-group mb-3 col-sm-6 col-12">
    
-    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <input type="text" class="form-control p-4" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
     <div class="input-group-prepend ">
       <span class="input-group-text text-warning p-2 bg-light" id="basic-addon1">
         Subscribe
