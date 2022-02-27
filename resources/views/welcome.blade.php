@@ -188,94 +188,96 @@ height: 120px;
   </div>
 
   <div class="container">
+    <h2 class="text-center font-weight-bold">Products</h2>
     <div class="row row-cols-1 row-cols-md-2">
       <!--tips: use row-cols-md-(X) to control how many of columns to show per row-->
       <!--tips: when you need equal height, add .h-100 to the cards-->
+  
       <!--Card1-->
       <div class="col-3 mb-4">
         <div class="card">
-          <img src="{{ asset('assests/images/avi.jpg') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
           
             <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
           
-            <p class="card-text bottom text-white p-2">Shop Now</p>
+            <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
           
         </div>
       </div>
       <!--Card2-->
       <div class="col-3 mb-4">
         <div class="card">
-          <img src="{{ asset('assests/images/men.jpg') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('assests/images/product2.jpg') }}" class="card-img-top" alt="...">
           
             <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
           
-            <p class="card-text bottom text-white p-2">Shop Now</p>
+            <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
           
         </div>
       </div>
       <!--Card3-->
       <div class="col-3 mb-4">
         <div class="card">
-          <img src="{{ asset('assests/images/img.jpg') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('assests/images/product3.jpg') }}" class="card-img-top" alt="...">
           
             <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
           
-            <p class="card-text bottom text-white p-2">Shop Now</p>
+            <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
           
         </div>
       </div>
       <!--Card4-->
       <div class="col-3 mb-4">
         <div class="card">
-          <img src="{{ asset('assests/images/men.webp') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('assests/images/product4.jpg') }}" class="card-img-top" alt="...">
           
             <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
           
-            <p class="card-text bottom text-white p-2">Shop Now</p>
+            <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
           
         </div>
       </div>
          <!--Card1-->
          <div class="col-3 mb-4">
           <div class="card">
-            <img src="{{ asset('assests/images/avi.jpg') }}" class="card-img-top" alt="...">
+            <img src="{{ asset('assests/images/product5.jpg') }}" class="card-img-top" alt="...">
             
               <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
             
-              <p class="card-text bottom text-white p-2">Shop Now</p>
+              <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
             
           </div>
         </div>
         <!--Card2-->
         <div class="col-3 mb-4">
           <div class="card">
-            <img src="{{ asset('assests/images/men.jpg') }}" class="card-img-top" alt="...">
+            <img src="{{ asset('assests/images/product2.jpg') }}" class="card-img-top" alt="...">
             
               <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
             
-              <p class="card-text bottom text-white p-2">Shop Now</p>
+              <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
             
           </div>
         </div>
         <!--Card3-->
         <div class="col-3 mb-4">
           <div class="card">
-            <img src="{{ asset('assests/images/img.jpg') }}" class="card-img-top" alt="...">
+            <img src="{{ asset('assests/images/product4.jpg') }}" class="card-img-top" alt="...">
             
               <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
             
-              <p class="card-text bottom text-white p-2">Shop Now</p>
+              <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
             
           </div>
         </div>
         <!--Card4-->
         <div class="col-3 mb-4">
           <div class="card">
-            <img src="{{ asset('assests/images/men.webp') }}" class="card-img-top" alt="...">
+            <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
             
               <h5 class="card-title top text-warning p-2">BeeKeeping</h5>
             
-              <p class="card-text bottom text-white p-2">Shop Now</p>
+              <p class="card-text bottom text-dark font-weight-bold p-2">Shop Now</p>
             
           </div>
         </div>
@@ -283,7 +285,7 @@ height: 120px;
     
   </div>
 
-  <h5 class="text-center font-weight-bold"><b>New Arrivals</b></h5>
+  <h5 class="text-center pt-5 font-weight-bold"><b>New Arrivals</b></h5>
   <div class="row px-3">
   <div class="owl-carousel items">
     
