@@ -21,7 +21,7 @@ class Product extends Model
     ];
 
     public function types(){
-        return $this->belongsTo(ProductType::class, 'p_type_id');
+        return $this->belongsTo(ProductType::class,'type_id', 'id')->with('category');
     }
     public function rating()
     {

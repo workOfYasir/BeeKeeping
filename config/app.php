@@ -176,7 +176,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         willvincent\Rateable\RateableServiceProvider::class,
-        Ghanem\Rating\RatingServiceProvider::class
+        Ghanem\Rating\RatingServiceProvider::class,
+        Stevebauman\Location\LocationServiceProvider::class
     ],
 
     /*

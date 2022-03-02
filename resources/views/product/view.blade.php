@@ -8,18 +8,19 @@
 <link rel='stylesheet' href='{{ asset('assests/css/rating.css') }}'>
 <style>
     .lSSlideOuter {
-        display: flex
+        display: block;
     }
     .lSGallery {
-        width: 370.5px !important;
-        padding: 10px
+        width: 100% !important;
+        padding: 10px;
+        display: flex;
     }
     .lSPager li {
         margin-left: 5px;
         margin-top: 5px;
         width: 100% !important;
     }
-    
+     
 
     .xzoom-source img, .xzoom-preview img, .xzoom-lens img {
     display: block;
@@ -345,6 +346,10 @@
                         <span  class="font-weight-bold">Name</span>
                         <div class="display-6">{{$article->title}}</div>
                     </div>
+                    <div class="mt-2 col-12">
+                        <p class="text-dark"><span  class="font-weight-bold">Type :  </span>{{$article->types->name}}</p>
+                       <p class="text-dark"> <span  class="font-weight-bold">Category :  </span>{{$article->types->category->name}}</p>
+                    </div>
                     <div class="mt-2 col-12"> <span class="font-weight-bold">Description</span>
                         <p>The minimalist collaboration features chairs, lightening, Shelves, Sofas, Desks and various home accessories, all offering form and function at the same point.We use high-strength clamps and joinery techniques specially designed for engineered wood beds. Ergo, no irksome creaks - and you can sleep like a baby, well into adulthood!</p>
                         <div class="bullets">
@@ -375,22 +380,22 @@
                         <span class="font-weight-bold">Price:</span> {{$article->price}}
                     </div>
                     <div class="my-3 col-12">
-                        <span class="font-weight-bold">Size:</span> 
+                        <p class="font-weight-bold text-dark">Size:  <span id="size_text"></span></p>
                         <div class="btn-group btn-group-toggle d-table-row" data-toggle="buttons">
                             <label class="btn btn-warning">
-                                <input type="radio" name="size"> X Small
+                                <input type="radio" name="size" class="size" value="xsmall" onclick="data(this)"> X Small
                             </label>
                             <label class="btn btn-warning">
-                                <input type="radio"  name="size"> Small
+                                <input type="radio"  name="size" class="size" value="small" onclick="data(this)"> Small
                             </label>
                             <label class="btn btn-warning">
-                                <input type="radio"  name="size"> Medium
+                                <input type="radio"  name="size" class="size" value="medium" onclick="data(this)"> Medium
                             </label>
                             <label class="btn btn-warning">
-                                <input type="radio" name="size"> Large
+                                <input type="radio" name="size" class="size" value="large" onclick="data(this)"> Large
                             </label>
                             <label class="btn btn-warning">
-                                <input type="radio"  name="size"> XLarge
+                                <input type="radio"  name="size" class="size" value="xlarge" onclick="data(this)"> XLarge
                             </label>
                            
                         </div>
@@ -515,40 +520,22 @@
 @push('scripts')
     {{-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script> --}}
     {{-- <script src="{{ asset('assests/js/xzoom.js') }}" ></script> --}}
-{{-- <script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
-
+    {{-- <script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script> --}}
 <script>
-    $('#lightSlider').lightSlider({
-        gallery: true,
-        item: 1,
-        loop: true,
-        slideMargin: 0,
-        thumbItem: 9
-    });
-    // $(function(){
-        $(".xzoom").xzoom({
-        zoomWith: 400,
-        tint:"#333",
-        Xoffset:15,
-    // });
-    })
-    $('#addStar').change('.star', function(e) {     
-        $(this).submit();
-        e.preventDefault();
-    });
-    function reply(id,index)
-    {
+  
+ function data(data) {
+    console.log('ok',data);
+    if($(data).is(':checked')){
+        var value = $(data).val();
+        console.log(value);
+        $('#size_text').text(value)
 
-        comment_id = $('#comment_id_'+index).val();
-
-        if(comment_id=='')
-        {
-            $('#comment_id_'+index).val(id);
-        }else{
-            $('#comment_id_'+index).val('');
-        }
-    
     }
-   
-</script> --}}
+    
+   }
+
+
+
+</script>
+
 @endpush

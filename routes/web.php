@@ -14,6 +14,9 @@ use App\Http\Controllers\User\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/contactus',[HomeController::class,'contactus'])->name('contactus');
+
+
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 

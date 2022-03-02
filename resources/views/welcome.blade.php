@@ -186,6 +186,43 @@ height: 120px;
     <div class="col"><img href="{{ asset('assests/images/') }}" /></div>
     <div class="col"><img href="{{ asset('assests/images/') }}" /></div>
   </div>
+  <div class="row row-cols-1 row-cols-md-2">
+  <div class="col-sm-4 col-12 mb-4" >
+    <div class="card" style="background-image: url({{ asset('assests/images/bg_product.jpeg') }})">
+      <div class="col-sm-12 col-6 p-0 offset-sm-0 offset-6">
+        <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
+      
+      </div>
+
+        <h5 class="card-title top p-4 text-warning p-2">BeeKeeping</h5>
+      
+        <p class="card-text bottom p-4 text-dark font-weight-bold p-2">Shop Now</p>
+      
+    </div>
+  </div>
+  <div class="col-sm-4 col-12 mb-4" >
+    <div class="card" style="background-image: url({{ asset('assests/images/bg_product.jpeg') }})">
+      <div class="col-sm-12 col-6 p-0 offset-sm-0 offset-6">
+      <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
+      </div>
+        <h5 class="card-title top p-4 text-warning p-2">BeeKeeping</h5>
+      
+        <p class="card-text bottom p-4 text-dark font-weight-bold p-2">Shop Now</p>
+      
+    </div>
+  </div>
+  <div class="col-sm-4 col-12 mb-4" >
+    <div class="card" style="background-image: url({{ asset('assests/images/bg_product.jpeg') }})">
+      <div class="col-sm-12 col-6 p-0 offset-sm-0 offset-6">
+      <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
+      </div>
+        <h5 class="card-title top p-4 text-warning p-2">BeeKeeping</h5>
+      
+        <p class="card-text bottom p-4 text-dark font-weight-bold p-2">Shop Now</p>
+      
+    </div>
+  </div>
+</div>
 
   <div class="container">
     <h2 class="text-center font-weight-bold">Products</h2>
@@ -194,7 +231,7 @@ height: 120px;
       <!--tips: when you need equal height, add .h-100 to the cards-->
   
       <!--Card1-->
-      <div class="col-3 mb-4">
+      <div class="col-sm-3 col-12 mb-4">
         <div class="card">
           <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
           
@@ -205,7 +242,7 @@ height: 120px;
         </div>
       </div>
       <!--Card2-->
-      <div class="col-3 mb-4">
+      <div class="col-sm-3 col-12 mb-4">
         <div class="card">
           <img src="{{ asset('assests/images/product2.jpg') }}" class="card-img-top" alt="...">
           
@@ -216,7 +253,7 @@ height: 120px;
         </div>
       </div>
       <!--Card3-->
-      <div class="col-3 mb-4">
+      <div class="col-sm-3 col-12 mb-4">
         <div class="card">
           <img src="{{ asset('assests/images/product3.jpg') }}" class="card-img-top" alt="...">
           
@@ -227,7 +264,7 @@ height: 120px;
         </div>
       </div>
       <!--Card4-->
-      <div class="col-3 mb-4">
+      <div class="col-sm-3 col-12 mb-4">
         <div class="card">
           <img src="{{ asset('assests/images/product4.jpg') }}" class="card-img-top" alt="...">
           
@@ -238,7 +275,7 @@ height: 120px;
         </div>
       </div>
          <!--Card1-->
-         <div class="col-3 mb-4">
+         <div class="col-sm-3 col-12 mb-4">
           <div class="card">
             <img src="{{ asset('assests/images/product5.jpg') }}" class="card-img-top" alt="...">
             
@@ -249,7 +286,7 @@ height: 120px;
           </div>
         </div>
         <!--Card2-->
-        <div class="col-3 mb-4">
+        <div class="col-sm-3 col-12 mb-4">
           <div class="card">
             <img src="{{ asset('assests/images/product2.jpg') }}" class="card-img-top" alt="...">
             
@@ -260,7 +297,7 @@ height: 120px;
           </div>
         </div>
         <!--Card3-->
-        <div class="col-3 mb-4">
+        <div class="col-sm-3 col-12 mb-4">
           <div class="card">
             <img src="{{ asset('assests/images/product4.jpg') }}" class="card-img-top" alt="...">
             
@@ -271,7 +308,7 @@ height: 120px;
           </div>
         </div>
         <!--Card4-->
-        <div class="col-3 mb-4">
+        <div class="col-sm-3 col-12 mb-4">
           <div class="card">
             <img src="{{ asset('assests/images/product1.jpg') }}" class="card-img-top" alt="...">
             

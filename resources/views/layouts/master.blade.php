@@ -3,22 +3,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,inital-scale=1,shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    {{-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> --}}
-    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css" integrity="sha512-r9kUVFtJ0e+8WIL8sjTUlHGbTLwlOClXhVqGgu4sb7ILdkBvM2uI+n/Fz3FN8u3VqJX7l9HLiXqXxkx2mZpkvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css" integrity="sha512-riTSV+/RKaiReucjeDW+Id3WlRLVZlTKAJJOHejihLiYHdGaHV7lxWaCfAvUR0ErLYvxTePZpuKZbrTbwpyG9w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-
-    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,17 +19,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="/assests/css/style.css">
         @stack('css')
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.0/umd/popper.min.js" integrity="sha512-Xjm+0nFbuYURBGDyWt1vjmQGWzaIP785XHQttAHeNBUnxuWfoOhDwK30iGGwAs0WPMualc/f7V1D/xbpZPdlEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.0/cjs/popper-base.min.js" integrity="sha512-M9620IPgipbbkcMWUkUzuOSeG3JtfJfQ+chpgBBvt6hjsLVImIiq7V76H1PLA9pXf/2QPUhQwN7AvOlHB+x6yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.0/cjs/popper-lite.min.js" integrity="sha512-QZh063+nzFi98+bHL9xwDO/B0+fKk+/ZCxkLMLlyhA9pFXep30t+XcB6zzYCMjnizga61BvixATq6sgmXpRM+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.0/cjs/popper.min.js" integrity="sha512-AdP2Tu1tLV2ypnolYAf11xXx9CPHe0OEvDXzi6Ftc7zyLbP9ZOfNFsPcl1rzflb6dSeZTBB2w0BTNxEVDRiuEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.0/esm/createPopper.min.js" integrity="sha512-Dsqp2UdljkJ74S7NG+sgqiYW9BCBXNXTT9+XiaSBl7379cqatKeyK/JPFqlL150QNEBhru7wa0MPnj0veu3dsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+       
     </head>
     <body>
         <a href="https://api.whatsapp.com/send?phone=03324010410&text=Hello%21%20Beekeeper%20I%20Have%20a%20query%20." class="float" target="_blank">
@@ -47,72 +28,173 @@
         @include('layouts.header')
         @yield('content')
         @include('layouts.footer')
-    </body>
-    @stack('scripts')
-    <script>
-        $(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                autoWidth:false,
-                navText: ["<p>Previous</p>","<p>Next</p>"],
-                mouseDrag:true,
-                touchDrag:true,
-                responsiveClass:true,
-                autoplay:true,
-                autoplayTimeout:2000,
-                autoplayHoverPause:true,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    500:{
-                        items:2
-                    },
-                    1000:{
-                        items:4
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+        <script>
+            $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    autoWidth:false,
+                    navText: ["<p>Previous</p>","<p>Next</p>"],
+                    mouseDrag:true,
+                    touchDrag:true,
+                    responsiveClass:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        500:{
+                            items:2
+                        },
+                        1000:{
+                            items:4
+                        }
                     }
-                }
+                });
+                
             });
-            
-        });
-
-</script>
-<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
-
-<script>
-    $('#lightSlider').lightSlider({
-        gallery: true,
-        item: 1,
-        loop: true,
-        slideMargin: 0,
-        thumbItem: 9
-    });
-    // $(function(){
-        $(".xzoom").xzoom({
-        zoomWith: 400,
-        tint:"#333",
-        Xoffset:15,
-    // });
-    })
-    $('#addStar').change('.star', function(e) {     
-        $(this).submit();
-        e.preventDefault();
-    });
-    function reply(id,index)
-    {
-
-        comment_id = $('#comment_id_'+index).val();
-
-        if(comment_id=='')
-        {
-            $('#comment_id_'+index).val(id);
-        }else{
-            $('#comment_id_'+index).val('');
-        }
     
+    </script>
+    <script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+    
+    <script>
+        $('#lightSlider').lightSlider({
+            gallery: true,
+            item: 1,
+            loop: true,
+            slideMargin: 0,
+            thumbItem: 9
+        });
+        // // $(function(){
+        //     $(".xzoom").xzoom({
+        //     zoomWith: 400,
+        //     tint:"#333",
+        //     Xoffset:15,
+        // // });
+        // })
+        $('#addStar').change('.star', function(e) {     
+            $(this).submit();
+            e.preventDefault();
+        });
+        function reply(id,index)
+        {
+    
+            comment_id = $('#comment_id_'+index).val();
+    
+            if(comment_id=='')
+            {
+                $('#comment_id_'+index).val(id);
+            }else{
+                $('#comment_id_'+index).val('');
+            }
+        
+        }
+       
+
+
+    </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script>
+    
+    var mymap = L.map('mapid');
+    var longitude = 0;
+    var latitude = 0;
+    if(longitude == '' && latitude == ''){
+        longitude = 70.16970962757074;
+        latitude = 30.16332991435404;      
+        zoom = 3;
+    }else{
+        longitude = $('.longitude').val();
+        latitude = $('.latitude').val();
+        latitude = parseFloat(latitude);
+        longitude = parseFloat(longitude);
+        zoom = 13;
     }
-   
-</script>
+    
+    console.log(longitude);
+    var marker = null;
+    var icon = L.icon({iconUrl: "{{asset('/images/vendor/leaflet/dist/marker-icon.png') }}"}); 
+        icon.options.shadowSize = [0,0];
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=sk.eyJ1Ijoid29yay1vZi15YXNpciIsImEiOiJja3h1MGs5MDcxNnJsMndvMGh2YmR3MGNoIn0.gQLKyWvfXm_OanVqhNb9Sw', {
+            attribution: 'Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+        }).addTo(mymap);
+        mymap.setView(new L.LatLng(latitude,longitude), zoom);
+        marker = L.marker([latitude,longitude ]).addTo(mymap)
+        $('.latitude').val(longitude);
+        $('.longitude').val(latitude);
+        mymap.on('click', function(e) {
+            // $('#addresses option').remove();
+            // $('#addresses').append('<option hidden disabled >Select Val</option>');
+            if (marker !== null) {
+            mymap.removeLayer(marker);
+        }
+        longitude = e.latlng.lng;
+        latitude = e.latlng.lat;
+    
+    marker = L.marker([e.latlng.lat, e.latlng.lng]).addTo(mymap)
+    $('.latitude').val(latitude);
+    $('.longitude').val(longitude);
+    
+     
+    latitude = parseFloat(latitude)
+    longitude = parseFloat(longitude)   
+    console.log(longitude);
+        var settings = {
+        "url": "http://api.positionstack.com/v1/reverse?access_key=2c8f3fed03eebb532675b86d0776583f&query="+latitude+","+longitude,
+        "method": "GET",
+        "timeout": 0,
+        };
+    
+        $.ajax(settings).done(function (response) {
+        console.log(response.data[0]);
+            // for (let indexes = 0; indexes < response.data.length; indexes++) {
+            //     $('#addresses').append('<option value="'+indexes+'" >'+response.data[indexes].label+'</option>')
+            // }
+            // var selectedIndex = $('#addresses').val();
+            // console.log(selectedIndex);
+            // $('#user_address').val(response.data[0].label)
+            // $('#user_address_city').val(response.data[0].county)
+            // $('#user_address_country').val(response.data[0].country)
+    
+        });
+    
+    });
+    
+    var settings = {
+        "url": "http://api.positionstack.com/v1/reverse?access_key=2c8f3fed03eebb532675b86d0776583f&query="+latitude+","+longitude,
+        "method": "GET",
+        "timeout": 0,
+        };
+    $.ajax(settings).done(function (response) {
+    console.log(response.data[0]);
+        // for (let index = 0; index < response.data.length; index++) {
+        //     $('#addresses').append('<option value="'+index+'" >'+response.data[index].label+'</option>')      
+        // }
+        // var selectedIndex = $('#addresses').val();
+        // console.log(response.data[selectedIndex]);
+        // $('#user_address').val(response.data[0].name+', '+response.data[0].street+', '+response.data[0].county+', '+response.data[0].region+', '+response.data[0].country)
+        // $('#user_address_city').val(response.data[0].county)
+        // $('#user_address_country').val(response.data[0].country)
+    
+    });
+    </script>
+       @stack('scripts')
+    </body>
+
 </html>
